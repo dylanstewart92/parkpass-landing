@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ParkPass UK - Seamless Business Parking</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #1c1c1e;
+      line-height: 1.6;
+      background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80') no-repeat center center fixed;
+      background-size: cover;
+      backdrop-filter: blur(2px);
+    }
+    header {
+      background: rgba(0, 0, 0, 0.75);
+      color: #ffffff;
+      text-align: center;
+      padding: 4rem 1rem 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      letter-spacing: -1px;
+    }
+    header p {
+      font-size: 1.25rem;
+      color: #d1d1d6;
+      margin-top: 0.5rem;
+    }
+    .section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 4rem 1.5rem;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 2rem;
+      backdrop-filter: blur(5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    .section h2 {
+      font-size: 2.25rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    .section p {
+      font-size: 1.125rem;
+      color: #3a3a3c;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .feature {
+      background: #ffffff;
+      border-radius: 1.5rem;
+      padding: 1.75rem;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+      transition: all 0.3s ease;
+    }
+    .feature:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+    .feature h3 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+    .cta {
+      margin-top: 4rem;
+    }
+    .cta input {
+      padding: 1rem;
+      width: 70%;
+      max-width: 400px;
+      font-size: 1rem;
+      border-radius: 0.75rem;
+      border: 1px solid #c7c7cc;
+      margin-bottom: 1rem;
+      background-color: #f2f2f7;
+    }
+    .cta button {
+      background: #000000;
+      color: white;
+      border: none;
+      padding: 1rem 2rem;
+      border-radius: 0.75rem;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .cta button:hover {
+      background: #1c1c1e;
+    }
+    footer {
+      text-align: center;
+      padding: 3rem 1rem;
+      font-size: 0.875rem;
+      color: #8e8e93;
+      background: rgba(255,255,255,0.9);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ParkPass UK</h1>
+    <p>Simplifying Business Parking Across the UK</p>
+  </header>
+  <section class="section">
+    <h2>Experience Seamless Parking</h2>
+    <p>One powerful subscription. Access premium parking across the UK — powered by real-time data, smart tech, and built for modern business travel.</p>
+    <div class="features">
+      <div class="feature">
+        <h3>Nationwide Coverage</h3>
+        <p>London, Manchester, Birmingham, Bristol & Edinburgh — and growing every month.</p>
+      </div>
+      <div class="feature">
+        <h3>Smart Entry</h3>
+        <p>License plate recognition technology lets you drive in and out without touching a thing.</p>
+      </div>
+      <div class="feature">
+        <h3>Fleet & Team Ready</h3>
+        <p>Designed for modern businesses. One dashboard, clear invoices, and centralized management.</p>
+      </div>
+      <div class="feature">
+        <h3>Flat Monthly Pricing</h3>
+        <p>No hidden fees. One transparent subscription that works across cities.</p>
+      </div>
+    </div>
+    <div class="cta">
+      <h2>Join the Waitlist</h2>
+      <p>Be the first to access smarter parking. Early access members receive exclusive pricing and launch perks.</p>
+      <form method="POST" action="https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec">
+        <input name="email" type="email" placeholder="Enter your work email" required>
+        <br>
+        <button type="submit">Notify Me</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    &copy; 2025 ParkPass UK. Seamless access, wherever business takes you.
+  </footer>
+</body>
+</html>
